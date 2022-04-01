@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Erin's CSS */
+
+body {
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.HeaderGrid {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.PawIcon {
+  align-self: center;
+  height: 24px;
+  padding: 3px;
+}
+
+.Header {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 32px;
+}
+
+.NavigationBar {
+  background-image: url("krista-mangulsone-9gz3wfHr65U-unsplash.jpg");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  padding: 15px;
+  margin: 15px;
+
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+li {
+  font-family: Arial;
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: small;
+  float: left;
+  margin: 15px;
+  text-shadow: 1px 1px rgb(77, 76, 76);
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  color: inherit;
+}
+
+.GettingStartedButton {
+  position: relative;
+  justify-self: center;
+  background-color: rgb(122, 140, 156);
+  border: none;
+  color: white;
+  padding: 15px 28px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 12px;
+  transition-duration: 0.2s;
+}
+.GettingStartedButton:hover {
+  background-color: rgb(207, 214, 221);
+  color: white;
+}
+
+.HomeP {
+  font-family: arial;
+  border: black solid 2px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.AboutUsP {
+  font-family: arial;
+  border: black solid 2px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.PetsPage {
+  font-family: arial;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 15px;
+  padding-bottom: 8px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.CatsButton {
+  background-color: rgb(122, 140, 156);
+  border: none;
+  color: white;
+  padding: 18px 24px;
+  margin: 10px;
+  margin-top: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 12px;
+  transition-duration: 0.2s;
+}
+.CatsButton:hover {
+  background-color: rgb(207, 214, 221);
+  color: white;
+}
+
+.DogsButton {
+  background-color: rgb(122, 140, 156);
+  border: none;
+  color: white;
+  padding: 18px 24px;
+  margin: 12px;
+  margin-top: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 12px;
+  transition-duration: 0.2s;
+}
+.DogsButton:hover {
+  background-color: rgb(207, 214, 221);
+  color: white;
+}
+
+.ResetButton {
+  background-color: rgb(122, 140, 156);
+  border: none;
+  color: white;
+  padding: 18px 24px;
+  margin: 12px;
+  margin-top: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 12px;
+  transition-duration: 0.2s;
+}
+.ResetButton:hover {
+  background-color: rgb(207, 214, 221);
+  color: white;
+}
+
+.Card {
+  background-color: white;
+  font-family: arial;
+  border: solid 2px black;
+  padding: 18px;
+  margin: 8px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.Footer {
+  background-color: rgb(199, 199, 255);
+  color: blue;
+  margin-top: 5vh;
+}
